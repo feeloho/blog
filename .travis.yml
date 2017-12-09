@@ -15,7 +15,7 @@ before_install:
 script:
   - cd blog-deploy
   - bash deploy.sh 'git@github.com:sxyazi/sxyazi.github.io.git' 'https://github.com/sxyazi/blog.git'
-  - bash deploy.sh push
+  - bash deploy.sh push 'git@github.com:sxyazi/sxyazi.github.io.git'
 
 branches:
   only:
